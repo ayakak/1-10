@@ -63,3 +63,27 @@ footer {
     height: 50px;
     background-color: #aaa;
 }
+
+
+/*メディアクエリCSSの記述を切り替える*/
+
+@media screen and (max-width: 768px) {
+
+  main {
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+  }
+
+  .step-box{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+  .step-box:last-child{
+    margin-bottom: 0px;
+  }
+
+
+}
