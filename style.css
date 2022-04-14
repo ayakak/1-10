@@ -64,9 +64,7 @@ footer {
     background-color: #aaa;
 }
 
-
 /*メディアクエリCSSの記述を切り替える*/
-
 @media screen and (max-width: 768px) {
 
   main {
@@ -84,6 +82,4 @@ footer {
   .step-box:last-child{
     margin-bottom: 0px;
   }
-
-
 }
